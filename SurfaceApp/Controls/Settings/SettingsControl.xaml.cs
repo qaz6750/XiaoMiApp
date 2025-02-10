@@ -34,7 +34,6 @@ namespace SurfaceApp.Controls.Settings
             // TODO: Update pages
             MenuItems.Add(SettingsMenuItem.Create("AdvancedInfo", "Advanced Info", "\uEE64", typeof(AdvancedInfoPage)));
             MenuItems.Add(SettingsMenuItem.Create("USBFunctionMode", "USB Function Mode", "\uECF0", typeof(USBFunctionMode.MainPage)));
-            MenuItems.Add(SettingsMenuItem.Create("Vibration", "Vibration", "\uE877", typeof(Vibration.MainPage)));
             FooterMenuItems.Add(SettingsMenuItem.Create("About", "About", "\uE946", typeof(SurfaceApp.Pages.AboutPage)));
         }
 
